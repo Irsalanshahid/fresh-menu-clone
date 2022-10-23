@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      font-family: Proxima Nova, system-ui, sans-serif;
+    }
+  }
+@layer components {
+.custom-li{
+    @apply block font-semibold py-2 pr-4 pl-3 text-[#4a4a4a] hover:bg-[#f2f3f3] rounded-full mr-6;
+}
+}
