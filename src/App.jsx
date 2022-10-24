@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Header from "./components/layout/Header.jsx"
-
+import Carousel from "./components/layout/Carousel.jsx";
 function App() {
   useEffect(() => {
     const script = document.createElement("script");
@@ -16,7 +16,11 @@ function App() {
   }, []);
 
   return (
-    <Header/>
+    <div>
+      <Header/>
+      <Carousel/>
+    </div>
+    
 
   );
 }

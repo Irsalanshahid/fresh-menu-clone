@@ -12,3 +12,6 @@
     @apply block font-semibold py-2 pr-4 pl-3 text-[#4a4a4a] hover:bg-[#f2f3f3] rounded-full mr-6;
 }
 }
+/* *{
+  border: 2px solid red;
+} */
